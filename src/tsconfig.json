@@ -12,7 +12,7 @@
         "pretty": true,
         "allowUnreachableCode": false,
         "allowUnusedLabels": false,
-        "noEmitHelpers": true,
+        "noEmitHelpers": false,
         "noEmitOnError": false,
         "noImplicitAny": false,
         "noImplicitReturns": true,
@@ -24,8 +24,6 @@
         "typings"
     ],
     "files": [
-        "angular/index.ts",
-        "index.ts",
         "socketio.android.ts",
         "socketio.ios.ts",
         "socketio.common.ts"
